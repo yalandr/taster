@@ -423,7 +423,7 @@ button {
 
 @media screen and (max-width: 800px) {
     .main-nav {
-        right: -120%;
+        right: -100%;
         transition: .3s;
     }
     .main-nav.open {
