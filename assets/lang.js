@@ -1,0 +1,30 @@
+let btnEn = document.querySelector('.en');
+let btnEs = document.querySelector('.es');
+let btnFr = document.querySelector('.fr');
+
+btnEs.addEventListener('click', () => {
+    document.querySelector('.secondary-heading').innerHTML = '¿Restaurador? ¡Únase a la plataforma Taster y lance rápidamente una de nuestras icónicas marcas de restaurantes virtuales desde su cocina actual!'
+    document.querySelector('.first').innerHTML = '¿Quienes somos?';
+    document.querySelector('.second').innerHTML = 'Nuestras marcas';
+    document.querySelector('.third').innerHTML = 'Contacto';
+    document.querySelector('.btn1').innerHTML = 'Conviértete en un compañero';
+    document.querySelector('.btn2').innerHTML = 'Aprende más';
+    document.querySelector('.main-heading').innerHTML = 'Lo mejor de la comida callejera en casa.';
+    document.querySelector('.hero-descr').innerHTML = 'Taster es una colección de restaurantes en línea dedicados a ofrecerte lo mejor de la comida callejera.';
+    document.querySelector('.hero-discover').innerHTML = 'Descubra nuestras marcas';
+    document.querySelector('.section-heading').innerHTML = 'Estadísticas de Bitesize';
+    document.querySelector('.card-01-descr').innerHTML = '4<br> años';
+    document.querySelector('.card-02-descr').innerHTML = '425,364<br> Rebanadas de queso';
+    document.querySelector('.card-03-descr').innerHTML = '9.2 millones<br> de papas fritas';
+    document.querySelector('.card-04-descr').innerHTML = '7,104 kms<br> de Fideos';
+    document.querySelector('.card-05-descr').innerHTML = '314,530<br> Langostinos tigre';
+    document.querySelector('.card-06-descr').innerHTML = '1,000,000+<br> paseos';
+    document.querySelector('.achieve-01').innerHTML = '100 restaurantes';
+    document.querySelector('.achieve-02').innerHTML = '25 ciudades';
+    document.querySelector('.achieve-03').innerHTML = '5 marcas';
+    document.querySelector('.achieve-04').innerHTML = '¡Y más!';
+    document.querySelector('.footer-heading-01').innerHTML = 'Nuestros restaurantes';
+    document.querySelector('.footer-heading-02').innerHTML = 'Nuestros restaurantes';
+    document.querySelector('.footer-heading-03').innerHTML = 'Nuestros restaurantes';
+    document.querySelector('.footer-heading-04').innerHTML = 'Nuestros restaurantes';
+})
